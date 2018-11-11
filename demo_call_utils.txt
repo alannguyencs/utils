@@ -1,0 +1,12 @@
+
+#linux
+import sys
+sys.path.insert(0, '/home/tnguyenhu2/alan_pytorch/src/utils/')
+
+#window
+sys.path.insert(0, '/D:/PyCharmProjects/utils/')
+
+import alutils
+
+
+print (alutils.num2String(8))
