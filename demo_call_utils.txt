@@ -1,10 +1,9 @@
-
-#linux
 import sys
-sys.path.insert(0, '/home/tnguyenhu2/alan_pytorch/src/utils/')
+import platform
 
-#window
-sys.path.insert(0, '/D:/PyCharmProjects/utils/')
+util_dir = '/home/tnguyenhu2/alan_pytorch/src/utils/'\
+ if platform.system() == 'Linux' else '/D:/PyCharmProjects/utils/'
+sys.path.insert(0, util_dir)
 
 import alutils
 
